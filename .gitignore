@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Certs / keys you don’t want in git
+*.cer
+*.p12
+*.mobileprovision
+*.certSigningRequest
